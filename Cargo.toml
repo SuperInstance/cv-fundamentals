@@ -1,0 +1,13 @@
+[package]
+name = "cv-fundamentals"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SuperInstance/cv-fundamentals"
+description = "Computer vision fundamentals in Rust — edge detection, feature extraction, image filtering, transforms"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+
+[dev-dependencies]
